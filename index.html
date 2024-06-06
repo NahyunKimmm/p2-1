@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+
+<style type="text/css">
+	 /* Pretendard 폰트 정의 */
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+ @font-face {
+        font-family: 'Pretendard';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+        font-weight: 300; 
+        font-style: normal;
+    }
+body, h1, h2, h3, p, ul, li{margin: 0; padding: 0}
+ body {background-color: black; }
+
+ .wrap{display: flex;
+	margin: 0 auto;
+	justify-content: center;
+align-items: center;
+height: 92px}
+
+.menu{display: flex;
+	justify-content: center;
+		height: 92px;
+		margin:auto;
+		align-items: center;
+		gap: 100px;
+		flex-shrink: 0;
+		position: fixed;
+		z-index: 100}
+
+.menu li {list-style-type: none;}
+
+.menu li a {color: #727274;
+		font-family: Pretendard;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	text-decoration: none;}
+
+.menu li a:hover{color: white;}
+
+.thumbnail{width: 1724px;
+		height: 970px;
+		top: 84px;
+		margin: 0 auto;}
+
+.thumbT{color: white;
+text-align: center;
+font-family: Pretendard;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 96px */
+top: 726px;
+left: 100px;
+position: absolute;}
+
+.thumbT2{color: white;
+font-family: Pretendard;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 36px */
+top: 738px;
+left: 605px;
+position: absolute;}
+
+.thumbT3{color: white;
+font-family: Pretendard;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+top: 838px;
+left: 605px;
+position: absolute;}
+
+.Physical1{top: 1230px;
+	position: absolute;
+	left: 0px}
+
+.introTitle{color: #171718;
+font-family: Pretendard;
+font-size: 54px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+top: 1406px;
+left: 428px}
+
+
+.introText1{
+color: #E00501;
+text-align: center;
+font-family: Pretendard;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 1579px;
+left: 385px;
+display: flex;
+}
+.introText1-2{color: #171718;
+	font-family: Pretendard;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.19px;
+text-align: center;}
+
+.introText2{
+color: #E00501;
+text-align: center;
+font-family: Pretendard;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 1579px;
+left: 1156px;
+display: flex;
+}
+.introText2-2{color: #171718;
+	font-family: Pretendard;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.19px;
+text-align: center;}
+
+.card{border-radius: 20px;
+background: #171718;
+width: 350px;
+height: 473px;
+top: 1662px;
+left: 100px;
+position: absolute;
+}
+.cardT{color: white;
+font-family: Pretendard;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+bottom: -130px;
+position: relative;}
+.cardpic{width: 175.84px;
+height: 203px;
+flex-shrink: 0;
+top: 78px;
+left: 87px;
+position: relative;}
+
+.card2{border-radius: 20px;
+background: #171718;
+width: 350px;
+height: 473px;
+top: 1662px;
+left: 466px;
+position: absolute;
+}
+.cardT2{color: white;
+font-family: Pretendard;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+bottom: -130px;
+position: relative;}
+.cardpic2{width: 175.84px;
+height: 203px;
+flex-shrink: 0;
+top: 100px;
+left: 102px;
+position: relative;}
+
+
+.explainBG{top: 2655px;
+			left: 0px;
+			position: absolute;}
+.explainTitle{color: white;
+font-family: Pretendard;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 81px */
+position: absolute;
+top: 2655px;
+left: 100px}
+
+</style>
+
+
+<nav class="wrap">
+
+<ul class="menu">
+	<li><a href= "#aaa">About</a></li>
+	<li><a href= "#bbb">Ch.0</a></li>
+	<li><a href= "#ccc">Ch.1</a></li>
+	<li><a href= "#ddd">Ch.2</a></li>
+	<li><a href= "#ddd">Ch.3</a></li>
+	<li><a href= "#ddd">Ch.4</a></li>
+</ul>
+
+</nav>
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<img class="thumbnail" src="./2024030517270462521_1709627225_0019860808 1.png">
+<h1 class="thumbT">Quest : 0 [질주]</h1>
+<h2 class="thumbT2">피지컬로 겨룬다고 해서 <br>근력만 좋은 사람이 이길거라고 생각하셨나요?</h2>
+<h2 class="thumbT3">사전 퀘스트는 총 3라운드로 진행. 1라운드의 경기 시간은 10분. <br> 무동력 트레드밀 위에서 100인이 동시에 달리며 달린 거리를 기록해 하위 50인 탈락. <br> 2라운드의 경기 시간은 7분. 50인이 달려 40인이 탈락하고 10인만이 생존. <br> 마지막 3라운드의 경기 시간은 5분. 최후의 10인이 달려 최종 1등을 선발합니다.</h2>
+
+<svg class="Physical1" xmlns="http://www.w3.org/2000/svg" width="1728" height="1086" viewBox="0 0 1728 1086" fill="none">
+ <path d="M91.9684 98.0732C119.908 38.2403 179.968 0 246.003 0L1728 0V1086H0V295.027L91.9684 98.0732Z" fill="white"/>
+<h1 class="introTitle">우승자들은 어떤 피지컬을 가지고 있을까?</h1>
+<span class="introText1">육체 <h2 class="introText1-2">의 조건</h2></span>
+
+<span class="introText2">운동능력 <h2 class="introText2-2">의 조건</h2></span>
+
+<div class="card"> 
+<img class="cardpic" src="./Group 38.svg">
+<h2 class="cardT">낮은 체중</h2>
+</div>
+
+<div class="card2"> 
+<img class="cardpic2" src="./Union.svg">
+<h2 class="cardT2">높은 하체 근육량</h2>
+</div>
+
+
+</svg>
+
+
+<svg class="explainBG" xmlns="http://www.w3.org/2000/svg" width="1728" height="4936" viewBox="0 0 1728 4936" fill="none">
+  <path d="M0 596.558L1728 0V4935.5H0V596.558Z" fill="#171718"/>
+</svg>
+<h1 class="explainTitle">능력 함양을 위한<br>
+근력운동 실전대비 Tip도 얻어가요!</h1>
+
+</body>
+</html>
